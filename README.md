@@ -9,8 +9,14 @@ brew install terminal-notifier
 ```
 
 ```julia
+Pkg.clone("https://github.com/jonasrauber/OSXNotifier.jl")
+```
+
+<!--
+```julia
 Pkg.add("OSXNotifier")
 ```
+-->
 
 ##Usage
 
