@@ -1,5 +1,9 @@
 module OSXNotifier
 
-# package code goes here
+export notify
+
+function notify(message)
+    run(`terminal-notifier -message $message`)
+end
 
 end # module
