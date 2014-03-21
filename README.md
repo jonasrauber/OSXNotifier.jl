@@ -1,6 +1,6 @@
 # OSXNotifier
 
-[![Build Status](https://travis-ci.org/jonasrauber/OSXNotifier.jl.png)](https://travis-ci.org/jonasrauber/OSXNotifier.jl)
+[![Build Status](https://travis-ci.org/jonasrauber/OSXNotifier.jl.svg?branch=master)](https://travis-ci.org/jonasrauber/OSXNotifier.jl)
 
 ##Installation
 
