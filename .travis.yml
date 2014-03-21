@@ -1,8 +1,8 @@
 language: cpp
 compiler:
   - clang
-notifications:
-  email: false
+#notifications:
+#  email: false
 env:
   matrix: 
     - JULIAVERSION="juliareleases" 
