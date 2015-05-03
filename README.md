@@ -26,10 +26,17 @@ notify("Notification with sound", sound=true) # you can also specify a sound fil
 
 Other supported parameters include `group` and `subtitle`.
 
-You can also remove notifications:
+You can also remove notifications. However, this does not seem to work reliably.
 
 ```julia
-OSXNotifier.remove() # should remove all notifications (does not seem to work reliably)
+OSXNotifier.remove() # removes all notifications
 ```
 
 To remove specific notifications, you need to specify a group identifier when calling `notify`. This identifier can then be passed to `remove()`.
+
+```julia
+notify("Group 1", group="group1")
+notify("Group 2", group="group2")
+
+OSXNotifier.remove("group1")
+```
