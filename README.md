@@ -35,8 +35,8 @@ OSXNotifier.remove() # removes all notifications
 To remove specific notifications, you need to specify a group identifier when calling `notify`. This identifier can then be passed to `remove()`.
 
 ```julia
-notify("Group 1", group="group1")
-notify("Group 2", group="group2")
+notify("Notification A", group="group1")
+notify("Notification B", group="group2")
 
 OSXNotifier.remove("group1")
 ```
