@@ -1,6 +1,6 @@
 using BinDeps
-@BinDeps.load_dependencies
-
+@BinDeps.setup
 terminalnotifier = library_dependency("terminal-notifier", os = :Darwin)
 
-provides(Homebrew, {"terminal-notifier" => terminalnotifier})
+using Homebrew
+provides(Homebrew.HB, "terminal-notifier", terminalnotifier, os = :Darwin)
