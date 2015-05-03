@@ -11,7 +11,7 @@ export notify
 			error("terminal-notifier binary does not exist: $terminalnotifier")
 		end
 	else
-    	error("OSXNotifier not properly installed. Please run Pkg.build(\"OSXNotifier\")")
+		error("OSXNotifier not properly installed. Please run Pkg.build(\"OSXNotifier\")")
 	end
 
 	function notify(message=""; title="Julia", subtitle="", open="", group="", sound=false, sender="org.julialang")
