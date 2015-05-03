@@ -20,9 +20,10 @@ Pkg.add("OSXNotifier")
 ```julia
 using OSXNotifier
 notify("Task completed")
-
 notify("Notification with sound", sound=true) # you can also specify a sound file
 ```
+
+![Screenshot of a Notification](/docs/screenshot.png?raw=true)
 
 Other supported parameters include `group` and `subtitle`.
 
