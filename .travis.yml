@@ -2,7 +2,7 @@ language: julia
 os:
   - osx
 julia:
-  - release
+  - 0.3
   - nightly
 notifications:
   email: false
